@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Cup', 'Mouse', 'Spoon']
+
+roboflow:
+  workspace: deep-learning-project-tmxym
+  project: term-project-paexh
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deep-learning-project-tmxym/term-project-paexh/dataset/7
